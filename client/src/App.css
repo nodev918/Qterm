@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:'roboto', sans-serif;
+}
+
+
+.container{
+  margin:0 auto;
+  width:800px;
+  display:flex;
+  justify-content:space-around;
+}
+
+.contain-left{
+  width:350px;
+  height: 500px;
+  display:flex;
+  flex-direction: column;
+}
+.contain-right{
+  width:350px;
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.navbar{
+  margin:0 auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar > h5{
+  margin:5px;
+  padding:2px;
+  margin-top:20px;
+  color:dodgerblue;
+}
+.navbar > h5:hover{
+  background-color: rgb(236, 229, 229);
+}
+
+.navbar-content{
+  display: flex;
+  justify-content: center;
+  font-size:large;
+  margin-top: 50px;
+}
+
+.function-link{
+  margin:0 auto;
+  margin-top:20px;
+  color:dodgerblue;
+}
+
+a{
+  color:black !important;
+}
+
+.note{
+
+  margin: 0 auto;
+  margin-top:10px;
+
+  display: flex;
+  flex-direction: column;
+}
+.note .input {
+  color:red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.note .input .text{
+  width:100%;
+}
+.note .input .picture, .enter{
+  height:43px;
+  width:50px;
+}
+
+
+.board li{
+  
+  position:relative;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  background:#d8d6d6;
+  border-radius:3px;
+  font-size:medium;
+  font-weight: bold;
+}
+.board li:nth-child(even){
+  background:#c5c5c5;
+}
+.board li.drag-sort-active {
+  opacity: 0.7;
+  background:#d6e2e6;
+  border: 2px solid #4ca1af;
+}
+
+
+.box-edit{
+  padding:10px 10px 10px 10px;
+  position:absolute;
+  top:0;
+  right:30px;
+
+}
+.box-edit:hover{
+  background:red
+}
+
+
+.box-close{
+  position:absolute;
+  width:30px;
+  top:0;
+  right:0;
+  padding:10px 10px 10px 10px;
+
+}
+.box-close:hover{
+  background:red
+}
+
+
+.iniButton{
+  border:0;
+  background-color:#5a8de0;
+  color:#a0bae4;
+  width:90px;
+  height:30px;
+  cursor:pointer;
+}
+.iniButton:hover{
+  color:#5a8de0;
+  background-color:#a0bae4;
+  border:2px #5a8de0 solid
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
